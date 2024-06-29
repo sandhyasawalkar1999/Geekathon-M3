@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Gill Sans", sans-serif; */
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+.navbar{
+    display: flex;
+    justify-content: center ;
+    height:12%;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+.navbar img{
+    width: 100px;
+    height: 100px;
+}
+.nav_name{
+    margin-left: 20PX;
+    margin-top: 40px;
+}
+.nav_name a{
+    color:black;
+    text-decoration: none;
+}
+.hiring{
+    height: 30%;
+    border: 1px solid black;
+    padding: 5px 8px;
+}
+.join{
+    height: 35px;
+    padding:8px 20px;
+    background-color:#0076d7;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center
+    
+}
+.join a{
+    color: white;
+}
+.join:hover{
+    background-color:white;
+    border: 2px solid rgb(27, 121, 203);
+}
+.join a:hover{
+    color: rgb(27, 121, 203);
+}
+.we_hiring{
+    display: flex;
+    background-color: rgb(235, 229, 221);
+    padding: 50px 10px;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 50px;
+}
+.we_hiring h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+.we_hiring content h1 span{
+    font-weight: 800;
+}
+.we_hiring h2{
+    font-size: 25px;
+    font-weight: 100;
+}
+.we_hiring .photo img{
+    width:500px;
+    height: 470px;
+}
+.link{
+    display: flex;
+   
+}
+.link a{
+    text-decoration: none;
+}
+.link .team{
+    padding: 10px 20px;
+    background-color: rgb(56, 137, 203);
+    border-radius: 10px;
+    display: flex;
+}
+.link .team .arrow{
+    margin-left:10px;
+    color: white;
+}
+.link .team .arrow:hover{
+    color: #0076d7;
+}
+.link .team a{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+.link .team:hover{
+    background-color:white;
+    color: #0076d7;
+    border: 2px solid#0076d7;
+}
+.link .team a:hover{
+    color:#0076d7;
+}
+.link .Testimonials{
+    margin-left: 20px;
+    padding: 9px 40px;
+    display: flex;
+    background-color: rgba(250, 244, 244, 0.954) ;
+    /* transition: border-color 0.3s ease , color 0.3s ease; */
+}
+.link .Testimonials .test{
+    margin-left: 8px;
+    font-size: 19px;
+    text-align: center;
+    justify-content: center;
+}
+.link .Testimonials .test a{
+    color: black;
+}
+.link .Testimonials:hover{
+    border: 2px solid #0076d7;
+    color: #0076d7;
+}
+
+.link .Testimonials .test a:hover{
+    color: #0076d7;
+}
+.link .Testimonials .material-symbols-outlined:hover{
+    color: #0076d7;
+    transition: color 0.3s ease;
+}
+.history{
+    display: flex;
+}
+.history .photos img{
+    width: 650px;
+    height: 650px;
+    margin: 50px 80px;
+    margin-right: 20px;
+}
+.history .contents{
+    margin: 50px;
+    margin-left:20px;
+
+}
+.history .contents .heading {
+   font-size: 40px;
+}
+.history .contents p{
+    color: #111;
+    font-size: 17px;
+    font-weight: 400;
+    opacity: .5;
+}
+.cards .cards1{
+    display: flex;
+    justify-content: center;
+}
+.cards .cards1 div{
+    padding:30px 40px;
+    height: 220px;
+    width: 220px;
+    text-align: center;
+}
+.cards .cards2{
+    display: flex;
+    justify-content: center;
+}
+.cards .cards2 div{
+    padding:30px 40px;
+    height: 220px;
+    width: 220px;
+    text-align: center;
+}
+.cards .c1,.c3,.c5{
+    background-color: #f8f8f8;
+}
+.c1{
+    transition:fill 0.3s ease;
+}
+.c1:hover{
+    /* filter:grayscale(100%) contrast(130%) brightness(90%); */
+    fill:gray;
+}
+.card-11:hover{
+    filter:grayscale(100%) contrast(130%) brightness(90%);
+}
+.card-11{
+    transition: fill 0.3s ease;
+}
+.card-12:hover{
+    filter:grayscale(100%) contrast(130%) brightness(90%);
+}
+.card-12{
+    transition: fill 0.3s ease;
+}
+.card-13:hover{
+    filter:grayscale(100%) contrast(130%) brightness(90%);
+}
+.card-13{
+    transition: fill 0.3s ease;
+}
+.card-21:hover{
+    filter:grayscale(100%) contrast(130%) brightness(90%);
+}
+.card-21{
+    transition: fill 0.3s ease;
+}
+.card-22:hover{
+    filter:grayscale(100%) contrast(100%) brightness(90%);
+}
+.card-22{
+    transition: fill 0.3s ease;
+}
+.card-23:hover{
+    filter:grayscale(100%) contrast(130%) brightness(90%);
+}
+.card-23{
+    transition: fill 0.3s ease;
+}
+.core_value{
+    background-color: #f3faff;
+    padding: 50px 50px;
+
+}
+.core_value h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+.value1,.value2,.value3{
+    display: flex;
+    margin: 50px 80px ;
+}
+.value1 .v11 ,.v12,.v21,.v22,.v31,.v32{
+    padding: 20px 30px;
+    border-radius: 15px;
+    background-color:white;
+}
+.v12,.v22,.v32{
+    margin-left: 30px;
+}
+.value1 div{
+    border: 2px solid black;
+}      
+.value2 div{
+    border: 2px solid black;
+}
+.value3 div{
+    border: 2px solid black;
+}
+.v11:hover{
+    box-shadow: 5px 5px 5px black ;
+}
+.v12:hover{
+    box-shadow: 5px 5px 5px black ;
+}
+.v21:hover{
+    box-shadow: 5px 5px 5px black ;
+}
+.v22:hover{
+    box-shadow: 5px 5px 5px black ;
+}
+.v31:hover{
+    box-shadow: 5px 5px 5px black ;
+}
+.v32:hover{
+    box-shadow: 5px 5px 5px black ;
+}
+.leadership_team h1{
+    text-align: center;
+    padding: 40px 30px 0px 30px ;
+    font-size: 38px;
+    font-family: "Gill Sans", sans-serif;
+}
+.leadership_team .content{
+    text-align: center;
+    margin: 20px 80px;
+    font-size: 17px;
+    color: rgb(154, 151, 151);
+    font-family: "Gill Sans", sans-serif;
+}
+.team-cards{
+    display: flex;
+    margin: 20px 80px;
+}
+.team-cards .card{
+    border: 1px solid rgb(130, 127, 127);
+    margin-left: 20px;
+    border-radius:15px;
+    height: 50vh;
+}
+.team-cards .card:hover{
+    box-shadow: 5px 5px 5px rgb(44, 43, 43);
+}
+.team-cards img{
+    width: 250px;
+    height: 250px;
+}
+.team-cards h2{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.team-cards p{
+    margin-left: 10px;
+    font-size: 16px;
+    color:gray;
+}
+.Benefits{
+    background-color: rgb(248, 242, 234);
+}
+.women{
+    background-image: url(https://akam.cdn.jdmagicbox.com/images/icontent/cms/career_women.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: rgb(248, 242, 234);
+   
+}
+.advatage{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.perks_heading h1{
+    text-align: center;
+    padding: 66px;
+    font-size:50px;
+}
+.perks-img{
+    width: 60%;
+    height :0%;
+}
+
+.perks_img_i{
+    margin-left: 200px;
+    width: 95%;
+    height: 80%;
+    border-radius: 80px;
+}
+.advatage11{
+    font-family: "Poppins", sans-serif;
+    /* border: 2px solid black; */
+    
+}
+.advatage11 p{
+    color:gray
+}
+.advatage1{
+    margin-top: 30px;
+}
+.advatage2{
+    margin-top:100px;
+    margin-left:120px;
+}
+.advatage3{
+    margin-top:170px;
+    margin-left:170px;
+}
+.advatage4{
+    margin-top:170px;
+    margin-left:130px;
+}
+.advatage5{
+    margin-top: 120px;
+    margin-left: 0;
+    margin-bottom: 60px;
+}
+.work1 h1{
+    font-size:50px;
+    text-align: center;
+    padding: 40px;
+}
+.workhead{
+    display: flex;
+    justify-content:space-evenly ;
+    margin:20px 40px 20px 40px;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #3d3c3c;
+}
+.workcontent{
+    border: 1px solid gray;
+    margin: 30px 80px;
+    border-radius: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+.workcontent video{
+    margin: 30px 50px;
+}
+.workcard{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.number{
+    margin-top: 20px;
+    font-size: 30px;
+    color: gray;
+}
+.workheading{
+    font-size: 21px;
+}
+.workpara{
+    font-size:20px;
+    color: gray;
+}
+.storyhead h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+}
+.Empolyee_stories
+{
+    background-color: rgb(237, 237, 243);
+}
+.videoheader{
+    display: flex;
+    padding: 90px;
+
+}
+.videoes{
+    border: 3px solid rgb(222, 218, 218);
+    width: 30vw;
+    border-radius: 5%;
+    margin-left:30px;
+    background-color: white;
+    
+}
+.videoes:hover{
+    box-shadow:10px 5px 5px rgb(187, 184, 184);
+}
+.video1{
+    padding: 20px;
+    width: 28vw;
+}
+.empname{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.emppos{
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.symbols{
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+
+}
+.symbol1{
+    border:2px solid black;
+    border-radius: 55%;
+    padding: 10px;
+    margin-left: 20px;
+}
+.material-symbols-outlined{
+    font-size: 40px;
+}
+.fun h1{
+    text-align: center;
+    padding: 30px;
+    font-size:50px;
+}
+.fun p{
+    text-align: center;
+    padding:20px;
+    margin-left:60px;
+    font-size: 19px;
+    color:rgb(199, 194, 194)
+}
+.photo{
+    display: flex;
+    margin:20px 110px;
+}
+.photo img{
+    width:300px;
+    height: 300px;
+  
+}
+.photo11 img{
+    width: 500px;
+    height: 610px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+.photo12 img{
+    width: 400px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.photo13 img{
+    width: 400px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+/* <!-- Current Job Vacancies at Justdial --> */
+.Currentjob{
+    background-color: #f3faff;
+}
+.job h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 40px;
+}
+.job p{
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+}
+.formsearch{
+    display: flex;
+}
+.formlocation{
+    width: 40%;
+    padding: 50px;
+}
+.formlocation select{
+    width:100%;  
+    padding:10px;
+    margin-left:90px;
+    border: 1px solid rgb(201, 198, 198);
+    border-radius: 5px;
+}
+.search{
+    margin-left:20px;
+    padding: 50px;
+}
+.search p{
+    background-color: rgb(85, 158, 231);
+    color: white;
+    padding:10px 30px;
+    border-radius: 10px;
+}
+.search p:hover{
+    background-color: white;
+    border: 2px solid  #0076d7;;
+    color: #0076d7;
+}
+.alljob{
+    height:10vh;
+    text-align: center;
+    margin:0px 650px 50px 650px;
+}
+.alljob p{
+    text-align: center;
+    border: 2px solid  #0076d7;
+    padding:15px;
+    border-radius:8px;   
+}
+.footersocialmidea{
+    display: flex;
+    padding: 30px;
+    margin-left: 50px;
+}
+.footersocialmidea img{
+    width:30px;
+    height:30px;
+}
+.follow{
+    font-size: 18px;
+    margin-top: 5px;
+}
+    
+.playstore{
+    margin-left:60%;
+    display: flex;
+    border: 2px solid black;
+    background-color: #111;
+    color: white;
+}
+.AppleStore{
+    margin-left: 30px;
+    display: flex;
+    border: 2px solid black;
+    /* background-color: #111; */
+    color:white;
+}
+.name{
+    background-color: #111;
+}
+.appleimg{
+    background-color: #111;
+}
+.appleimg img{
+    color:white;
+}
+.apple{
+    color:red;
+}
+.name1{
+    font-size: 12px;
+}
+.name2{
+    font-size: 16px;
+}
+.jdcollection{
+    border: 1px solid rgb(245, 241, 241);
+    padding: 30px;
+    margin-left: 50px;
+}
+.links{
+    display: flex; 
+}
+.links a{
+    color: gray;
+}
+.quicklinks h1{
+    margin-left: 50px;
+}
+.linksheader1{
+    display: flex;
+    margin-left:20px;
+}
+.linksheader{
+    /* display: flex; */
+    margin-left: 20px;
+}
+.links1234{
+    display: flex;
+    margin-left: 30px;
+}
+.link11{
+    display: flex;
+    border: 2px solid black;
+}
+.link11 div{
+    margin-left: 20px;
+
+}
